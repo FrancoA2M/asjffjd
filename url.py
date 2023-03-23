@@ -46,8 +46,8 @@ def filter_links(bot: DeltaBot, message: Message, replies: Replies) -> None:
     """Si me envias una url te mandare su html ^_^."""
     if message.text.lower().startswith('/sub'):
         if message.text=='/sub' or message.text=='/sub ':
-        replies.add('Envia el nombre del audiovisual XD...Ej:\n/sub Shazam')
-        return
+            replies.add('Envia el nombre del audiovisual XD...Ej:\n/sub Shazam')
+            return
         C+1
         message.text = message.text.replace('/sub', '')
         bus = message.text
