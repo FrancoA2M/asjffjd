@@ -1,0 +1,4 @@
+simplebot
+requests
+beautifulsoup4
+html5lib
